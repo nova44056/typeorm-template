@@ -1,0 +1,36 @@
+{
+   "name": "typeorm-template",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/connect-redis": "^0.0.16",
+      "@types/express": "^4.17.12",
+      "@types/express-session": "^1.17.3",
+      "@types/morgan": "^1.9.2",
+      "@types/multer": "^1.4.6",
+      "@types/multer-s3": "^2.7.9",
+      "@types/node": "^8.10.66",
+      "nodemon": "^2.0.7",
+      "ts-node": "^3.3.0",
+      "typeorm-seeding": "^1.6.1",
+      "typescript": "^3.9.10"
+   },
+   "dependencies": {
+      "@types/cors": "^2.8.10",
+      "aws-sdk": "^2.932.0",
+      "connect-redis": "^6.0.0",
+      "cors": "^2.8.5",
+      "dotenv": "^8.6.0",
+      "express": "^4.17.1",
+      "express-session": "^1.17.2",
+      "morgan": "^1.10.0",
+      "multer": "^1.4.2",
+      "multer-s3": "^2.9.0",
+      "mysql": "^2.14.1",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.32"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   }
+}
